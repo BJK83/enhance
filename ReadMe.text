@@ -1,31 +1,31 @@
 Pre-Requisites:
-•	Download Eclipse IDE - for java developers 
-•	Download Java and Set JAVA_HOME and Java Bin in Environment variables and Path Environment variables 
-•	Download Maven and Set MAVEN_HOME and Maven
+â€¢	Download Eclipse IDE - for java developers 
+â€¢	Download Java and Set JAVA_HOME and Java Bin in Environment variables and Path Environment variables 
+â€¢	Download Maven and Set MAVEN_HOME and Maven
 
 
 Downloading and setting up the Maven project:
-•	Download the maven project to your local machine from Git
-•	Git Link is :	
-•	Open the prject from Eclipse or Intellij. (Ive used eclipse)
-•	Right click on the project root directory , Maven, Update project
+â€¢	Download the maven project to your local machine from Git
+â€¢	Git Link is :	https://github.com/BJK83/enhance.git
+â€¢	Open the prject from Eclipse or Intellij. (Ive used eclipse)
+â€¢	Right click on the project root directory , Maven, Update project
 
 
 Selenium Webdriver
-•	I have used the stable version as recommended by Selenium
-•	POM Dependency version is 3.141.59, this is compatible with Google Chrome Version 91.0.4472.101. Please update the driver or chrome where necessary
+â€¢	I have used the stable version as recommended by Selenium
+â€¢	POM Dependency version is 3.141.59, this is compatible with Google Chrome Version 91.0.4472.101. Please update the driver or chrome where necessary
 
 
 Running the test
 Option 1
-•	Navigate to the root folder of the project which has pom.xml file
-•	Open command prompt in this folder
-•	Execute  command : mvn test
+â€¢	Navigate to the root folder of the project which has pom.xml file
+â€¢	Open command prompt in this folder
+â€¢	Execute  command : mvn test
 
 Option 2
-•	Open this project in eclipse IDE
-•	Go to the path src/test/java/ cucumber.Options, right click and run as Junit Test
-•	Note: If Junit test is not available in your run as, you will need to configure Junit run configurations from Run ? Run Configuration ? Junit
+â€¢	Open this project in eclipse IDE
+â€¢	Go to the path src/test/java/ cucumber.Options, right click and run as Junit Test
+â€¢	Note: If Junit test is not available in your run as, you will need to configure Junit run configurations from Run ? Run Configuration ? Junit
 
 Test Results:
 The report will be generated in the Project root - \target\cucumber-reports.html. Refresh the project and open this with Chrome or any other browser.
